@@ -12,8 +12,8 @@ The last part of the script checks if the number of folders in the backup direct
 # Makefile to run the bash script <br>
 The syntax of a makefile is <br>
  targets: prerequisites <br>
-	command <br>
-	command <br>
+<\t>	command <br>
+<\t>	command <br>
 the target in our makefile is called backup (or any name you call it). Then the makefile checks if the user didn't input all the required arguments it exits with a message specifying the correct format. <br>
 The makefile then checks if the backup file exists or not and if it doesn't exist it will create one with the name the user specifies.
 Lastly, it runs the bash script passing the arguments.<br>
